@@ -9,6 +9,10 @@ public class Monster {
         this.health = health;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public Range getAttackDamage(){
         return attackDamage;
     }

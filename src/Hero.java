@@ -8,6 +8,9 @@ public class Hero {
     private Weapon weapon;
     private List<Ability> abilities;
 
+    public String getName() {
+        return name;
+    }
     public Hero(String name, int health, Weapon weapon, List<Ability> abilities){
         this.name = name;
         this.health = health;
